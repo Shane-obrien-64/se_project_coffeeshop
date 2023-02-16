@@ -1,0 +1,28 @@
+@import url(/pages/normalize.css);
+
+.page {
+    min-width: 1100px;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: "Inter", arial, serif;
+}
+
+.header {
+    background-color: #FFFFFF;
+    background-image: url(../images/background_header.svg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+}
+
+/* .header__logo {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 125px;
+    height: 142px;
+}
+*/
+.nav__link {
+    list-style-type: none;
+    display: flex;
+}
