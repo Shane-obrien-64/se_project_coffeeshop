@@ -1,3 +1,7 @@
+.form {
+  margin: 0;
+}
+
 .form__fieldset {
   margin: auto;
   padding: 0;
@@ -39,4 +43,5 @@
   display: flex;
   justify-content: center;
   gap: 12px;
+  border-radius: 2px;
 }
