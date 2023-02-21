@@ -1,0 +1,42 @@
+.form__fieldset {
+  margin: auto;
+  padding: 0;
+  display: block;
+  max-width: 385px;
+  border-style: none;
+}
+
+.form__input {
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+  height: 60px;
+  width: 385px;
+  padding: 0;
+  margin: 8px 0 32px;
+  border-radius: 4px;
+}
+
+.form__button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 32px;
+  height: 60px;
+  width: 385px;
+  background-color: #2f80ed;
+  color: #ffffff;
+  border-radius: 4px;
+  opacity: 1;
+  transition: 0.8s ease-in-out;
+}
+
+.form__button:hover {
+  opacity: 0.7;
+}
+
+.form__checkbox {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}

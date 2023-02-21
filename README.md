@@ -13,4 +13,5 @@ This is the second project of the Web Development program at Practicum. It was c
 
 ## Plan on improving the project
 
-Add your ideas here :)
+- using flex:grid; to position elements in blocks
+- reducing the animation delays on the links to make them more noticable
