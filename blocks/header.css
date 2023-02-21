@@ -14,12 +14,13 @@
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
+  display: flex;
+  flex-direction: column;
 }
 
 .header__span-accent {
   font-family: Noto serif;
   font-style: italic;
-  font-weight: normal;
   font-size: 60px;
   line-height: 72px;
   color: #2f80ed;
@@ -49,7 +50,6 @@
   width: 100%;
   display: flex;
   align-items: center;
-  /* margin: auto 80px 40px 80px; */
   padding: 0 80px 40px;
   justify-content: space-between;
   box-sizing: border-box;
