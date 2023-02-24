@@ -6,6 +6,7 @@
   max-height: 800px;
   margin: 0;
   box-sizing: border-box;
+  position: relative;
 }
 
 .header__title {
@@ -16,6 +17,7 @@
   line-height: 72px;
   display: flex;
   flex-direction: column;
+  z-index: 2;
 }
 
 .header__span-accent {
@@ -32,6 +34,7 @@
   font-family: Noto serif;
   font-size: 20px;
   line-height: 30px;
+  z-index: 2;
 }
 
 .header__image {
@@ -40,6 +43,7 @@
   position: absolute;
   top: 124px;
   right: 5px;
+  z-index: 1;
 }
 
 .header__footer {
