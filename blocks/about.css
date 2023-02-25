@@ -4,8 +4,9 @@
   color: #ffffff;
   position: relative;
   box-sizing: border-box;
-  z-index: -2;
+  z-index: 1;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .about__title {
@@ -23,11 +24,11 @@
   gap: 20px;
   max-width: 660px;
   font-size: 20px;
-  font-family: Noto serif;
+  font-family: "Noto serif", Times New Roman, serif;
   line-height: 30px;
 }
 
-.about_paragraph {
+.about__paragraph {
   margin: 0;
 }
 
