@@ -24,12 +24,12 @@
 .recipes__videos {
   box-sizing: border-box;
   width: 1000px;
-  margin: 0 auto 215px;
+  margin: 0 auto;
+  padding-bottom: 215px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  row-gap: 24px;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .recipes__iframe {
@@ -44,6 +44,7 @@
   display: flex;
   justify-content: space-between;
   margin: 0;
+  padding-top: 24px;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
