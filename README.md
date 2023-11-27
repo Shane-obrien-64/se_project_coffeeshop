@@ -11,7 +11,6 @@ This is the second project of the Web Development program at Practicum. It was c
 - A custom form
 - CSS animation and transform
 
-## Plan on improving the project
+## link to site
 
-- using flex:grid; to position elements in blocks
-- reducing the animation delays on the links to make them more noticable
+https://shane-obrien-64.github.io/se_project_coffeeshop/
